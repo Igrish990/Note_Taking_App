@@ -1,7 +1,4 @@
-# Note_Taking_App
-Sure! Here's your GitHub project description in **Markdown format** — perfect for adding to a `README.md` file:
 
-```markdown
 # 📝 Note Taking Application
 
 A full-stack **Note Taking App** built with **React (Vite)** and **Node.js/Express**, backed by **MongoDB**. Offers secure CRUD operations on notes, rate limiting, and modern UI/UX practices.
@@ -23,11 +20,11 @@ A full-stack **Note Taking App** built with **React (Vite)** and **Node.js/Expre
 - **CORS** – for cross-origin support  
 - **Rate Limiting** – using `@upstash/ratelimit` and `@upstash/redis`
 
----
+
 
 ## 📁 Folder Structure
 
-```
+
 
 project-root/
 │
@@ -44,9 +41,8 @@ project-root/
 │   ├── api/       # Axios helpers
 │   └── main.jsx
 
-````
 
----
+
 
 ## ✅ Key Features
 
@@ -70,20 +66,20 @@ project-root/
 ## ▶️ How to Run Locally
 
 ### 🔹 Backend
-```bash
+
 cd backend
 npm install
 # Add .env file with MongoDB URI and port
 npm run dev
-````
+
 
 ### 🔹 Frontend
 
-```bash
+
 cd frontend
 npm install
 npm run dev
-```
+
 
 ### 🌐 Backend API
 
@@ -107,13 +103,4 @@ Runs at: `http://localhost:5001/api/notes`
 * Cloud deployment (e.g., Vercel + Render)
 * Light/Dark theme toggle
 
----
 
-## 📜 License
-
-MIT – Feel free to fork, use, and contribute!
-
-```
-
-You can copy-paste this directly into your `README.md`. Let me know if you want badges (build status, tech stack, etc.) or screenshots added as well!
-```
