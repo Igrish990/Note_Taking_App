@@ -22,24 +22,7 @@ A full-stack **Note Taking App** built with **React (Vite)** and **Node.js/Expre
 
 
 
-## 📁 Folder Structure
 
-
-
-project-root/
-│
-├── backend/       # Express server with routes, controllers, models
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── index.js
-│
-├── frontend/      # React app
-│   ├── components/
-│   ├── pages/
-│   ├── api/       # Axios helpers
-│   └── main.jsx
 
 
 
@@ -68,8 +51,9 @@ project-root/
 ### 🔹 Backend
 
 cd backend
+
 npm install
-# Add .env file with MongoDB URI and port
+
 npm run dev
 
 
@@ -77,7 +61,9 @@ npm run dev
 
 
 cd frontend
+
 npm install
+
 npm run dev
 
 
